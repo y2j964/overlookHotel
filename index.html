@@ -1,0 +1,142 @@
+<!DOCTYPE html>   
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>carousel webpage</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="index,follow" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles3.css" />  
+</head>
+<body>
+  <header class="text-center d-flex">
+    <div class="navUnderLayer"></div>
+    <div class="headerBlock d-none d-lg-block">
+      <h1>Overlook</h1>
+      <ul class="star-rating list-unstyled d-flex justify-content-center mb-1">
+        <li><i class="fas fa-star"></i></li>
+        <li><i class="fas fa-star"></i></li>
+        <li><i class="fas fa-star"></i></li>
+        <li><i class="fas fa-star"></i></li>
+        <li><i class="fas fa-star"></i></li>
+      </ul>
+      <p>HOTEL</p>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-dark text-white px-sm-1 px-md-1 px-lg-0 mb-3 mb-lg-0" >
+      <a class="navbar-brand d-lg-none" href="#">The Overlook</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars ml-auto"></i>    
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Market</a>
+            <ul class="dropdown-menu" id="marketDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Vacation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <span class="col-12 text-right d-block">Some text <a href="#">I can't see</a></span>
+      <div id="carouselExampleIndicators" class="col-12 carousel slide px-3 mb-1" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img srcset="images/overlook1-sm.jpg 320w,
+                     images/overlook1-md.jpg 640w,
+                    images/overlook1.jpg 1100w"
+             sizes="(max-width: 320px) 288px,
+                    (max-width: 640px) 608px,
+                    1068px"
+             src="images/overlook1.jpg" alt="First slide: exterior of Overlook Hotel"> 
+          </div>
+          <div class="carousel-item">
+            <img srcset="images/overlook2-sm.png 320w,
+                     images/overlook2-md.png 640w,
+                    images/overlook2.png 1100w"
+             sizes="(max-width: 320px) 288px,
+                    (max-width: 640px) 608px,
+                    1068px"
+             src="images/overlook1.jpg" alt="Second slide: Danny with tricycle in hallway"> 
+          </div>
+          <div class="carousel-item">
+            <img srcset="images/overlook3-sm.jpg 320w,
+                     images/overlook3-md.jpg 640w,
+                    images/overlook3.jpg 1100w"
+             sizes="(max-width: 320px) 288px,
+                    (max-width: 640px) 608px,
+                    1068px"
+             src="images/overlook1.jpg" alt="Third slide: Jack in the Ballroom">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="triangle"></div>
+      </div>
+      <ul class="sprites list-unstyled text-center mx-auto">
+        <li><a id="facebook" href="#"></a></li>
+        <li><a id="instagram" href="#"></a></li>
+        <li><a id="twitter" href="#"></a></li>
+        <li><a id="youtube" href="#"></a></li>
+        <li><a id="wordPress" href="#"></a></li>
+      </ul>
+    </div>
+    <div class="row">
+      <main class= "col-12 col-lg-7">
+        <h2 class="mb-3">Welcome</h2>
+        <article>
+          <h3 class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+          <p>Etiam mollis velit in metus consequat, sed tempor elit sollicitudin. Praesent ante urna, vestibulum vitae lorem sit amet, consequat ornare erat. In et elit non lorem facilisis porttitor. Donec ornare varius turpis, vel vulputate leo congue eu. Vivamus fermentum nunc tortor, et efficitur libero pretium non. Curabitur faucibus nulla semper aliquet eleifend. Proin varius lacinia elit, at volutpat lectus aliquam sit amet. Fusce nulla augue, dignissim ut est vel, luctus imperdiet mauris. Pellentesque ac risus sed elit aliquet consectetur. Suspendisse tincidunt venenatis feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus et erat rutrum, faucibus sapien nec, porttitor sapien.</p>  
+          <p>Pellentesque imperdiet risus vel massa luctus dignissim. Nam feugiat elit eget metus tempus, quis volutpat lectus placerat. Morbi non faucibus enim, porttitor tincidunt ex. Donec pretium sagittis est. Mauris cursus aliquam dapibus. Fusce interdum libero sed rhoncus scelerisque. Morbi sit amet condimentum quam. Proin pretium ligula at metus vulputate, in vehicula urna ultrices. Vivamus vestibulum cursus ultrices. Pellentesque commodo lectus metus, non volutpat augue lobortis id. Nunc at lorem risus. Praesent sed velit nec lorem consequat tincidunt. Morbi et urna id tortor egestas tempor ac ac lacus. Nam lacinia mattis odio, eget maximus arcu semper ac. Curabitur vel sem at quam lacinia faucibus.</p>
+        </article>
+      </main>
+      <aside class="col-12 col-lg-5">
+        <h2>About</h2>
+        <img class="float-left mr-2" src="images/kubrick2.jpg" alt="movie poster for The Shining">
+        <h3 class="mb-3">Duis posuere eu est sed malesuada.</h3>
+        <p>Nullam convallis mollis neque, vitae consectetur dolor. Aliquam vitae velit interdum, gravida quam id, scelerisque mi. Aliquam sit amet elit feugiat, pharetra purus sed, molestie arcu. Donec et scelerisque sapien. Nam vel nisl ornare libero consequat rutrum vel non orci. Etiam consectetur blandit ipsum, a pellentesque elit vulputate in. Nunc suscipit blandit commodo.</p>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+      </aside>
+    </div>
+  </div>
+  <footer class="py-2">
+    <div class="fullWidthWrapper">
+      <ul class="list-unstyled d-flex flex-nowrap justify-content-between justify-content-sm-start d-sm-inline-block mb-2 mb-md-0 py-2 px-3">
+        <li ><a href="#">Privacy Policy</a></li>
+        <li ><a href="#">Terms</a></li>
+        <li ><a href="#">Careers</a></li>
+        <!-- <li class="copyright ml-auto"><span>© 2019 Knuckle Sandwich</span></li> -->
+      </ul>
+      <span class="copyright float-sm-right mb-0 pr-3 py-2">© 2019 Knuckle Sandwich</span>
+    </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>  
+  </body>
+</html>
